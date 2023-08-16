@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work A</title>
+<!-- Include Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+  <div class="content">
+    <h1>Work A</h1>
+    <p>This is the content of Work A.</p>
+    <div class="pdf-preview">
+      <iframe id="pdfPreviewA" src="workA.pdf" width="75%" height="500px" frameborder="0"></iframe>
+    </div>
+    <div class="switch-button">
+      <button class="btn btn-primary" onclick="switchWork('workA.pdf')">Work A</button>
+      <button class="btn btn-primary" onclick="switchWork('workB.pdf')">Work B</button>
+      <!-- Add more buttons for additional works -->
+    </div>
+  </div>
+  <a class="back-link" href="index.html">Back to Main Page</a>
+</div>
+<script>
+  function switchWork(workFileName) {
+    document.getElementById('pdfPreviewA').src = workFileName;
+  }
+</script>
+</body>
+</html>
