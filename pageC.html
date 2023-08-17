@@ -22,16 +22,18 @@
     
   <div class="content">
     <h2>My Works as GIS Analyst</h2>
-    <!-- <p>This is the content of Work C.</p> -->
     <div class="pdf-preview">
         <div class="switch-button">
-            <button class="btn btn-primary" onclick="switchWork('workA.pdf')">Work A</button>
-            <button class="btn btn-primary" onclick="switchWork('workB.pdf')">Work B</button>
-            <!-- Add more buttons for additional works -->
+            <button class="btn btn-primary" onclick="switchWork(src='Sources/GIS/Construction.pdf')">Landuse Digitialization</button>
+            <button class="btn btn-primary" onclick="switchWork(src = 'Sources/GIS/EV.pdf')">EV Charging in CT</button>
+            <button class="btn btn-primary" onclick="switchWork(src = 'Sources/GIS/immi.pdf')">Immigrant to U.S.</button>
+            <button class="btn btn-primary" onclick="switchWork(src = 'Sources/GIS/trade.pdf')">U.S. Trade Partners</button>
+            <button class="btn btn-primary" onclick="switchWork(src = 'Sources/GIS/export.pdf')">U.S. Exports</button>
+            <button class="btn btn-primary" onclick="switchWork(src = 'Sources/GIS/indu.pdf')">Industry in Midwest</button>
           </div>
           
         <div class="frame">
-            <iframe id="pdfPreviewA" src="workA.pdf" width="85%" height="600px"></iframe>
+            <iframe id="pdfPreviewA" width="85%" height="600px"></iframe>
         </div>
 
   </div>
