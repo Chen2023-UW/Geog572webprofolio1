@@ -66,10 +66,11 @@ body {
   }
 
   .info {
+    float: right;
+    padding-right: 5%;
     font-family: "futura-pt", sans-serif;
     color: black;
     font-size: 14px;
-    margin-left: 70%;
   }
 
   .content {
@@ -97,9 +98,8 @@ body {
   }
 
 .link {
-  position: fixed;
-  bottom: 15%;
-  left: 20%;
+  float: left;
+  padding-left: 5%;
 }  
 
 img[src="linkedlin.png"] {
